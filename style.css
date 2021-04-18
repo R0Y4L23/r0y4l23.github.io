@@ -1,0 +1,203 @@
+  body{
+    margin:0;
+    padding:0;
+    }
+
+    header{
+        background: url(/images/skyline.jpg);
+        color:white;
+        height:80vh;
+        width:100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        background-attachment: fixed;
+        padding-bottom: 75px;
+    }
+    .overlay{
+        background-color: rgba(0,0,0,0.5);
+        height:87.7vh;
+        width:100%;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 0;
+    }
+    a{
+        color: white;
+
+    }
+
+    .top{
+        padding-top: 30px;
+        padding-bottom: 40px;
+        display:flex;
+        column-gap: 850px;
+        flex-wrap: wrap;
+    }
+    .top h3{
+        padding-left:250px;
+    }
+    .mid-heading{
+        padding-top: 95px;
+        padding-bottom: 25px;
+        font-size: 55px;
+        font-weight: 120;
+    }
+
+    .mid-container{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        padding-bottom: 75px;
+        
+    }
+    .mid-contents{
+        
+        text-align: center;
+        
+    }
+    .mid-contents i{
+        
+        font-size: 35px;
+        
+    }
+    .mid-contents h2{
+        
+        text-align: center;
+        font-size: 30px;
+        font-weight: 150;
+        
+    }
+    .mid-contents p{
+        
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    .first-mid-c{
+        border-right-style: solid;
+        border-right-color: blanchedalmond;
+        border-right-width: 1.5px;
+        
+    }
+    .second-mid-c{
+        border-right-style: solid;
+        border-right-color: blanchedalmond;
+        border-right-width: 1.5px;
+        
+    }
+    .top-link{
+        text-align: center;
+    }
+        
+    
+    .button{
+        text-decoration: none;
+        color:green;
+        border-style: solid;
+        border-color: green;
+        border-radius: 25px;
+        padding: 10px 20px;
+        transition: all;
+        transition-timing-function: ease;
+        
+
+        
+        
+    }
+    .button:hover{
+        
+        background-color: rgb(210, 255, 201);
+        
+    }
+
+    .lists{
+        list-style: none;
+        
+        display: flex;
+    }
+    .lists li{
+        padding:10px;
+        
+        font-size: 20px;
+    }
+
+    .second-mid{
+
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 60px;
+        height:60vh;
+        width:100%;
+    }
+
+    .second-mid-contents{
+        text-align: center;
+    }
+
+    .second-mid-contents img{
+        border-radius: 50%;
+    }
+
+    .second-mid-contents h2{
+
+       color:rgb(131, 145, 128);
+       font-size: 30px;
+       font-weight: 100;
+    }
+    .second-mid-contents p{
+
+        color:rgb(168, 181, 165);
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 50px;
+
+     }
+    .foot{
+        background-color: rgb(110, 240, 96);
+        color:white;
+        height:80vh;
+        width:100%;
+    }
+
+    .foot h2{
+        padding-top: 90px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100;
+    }
+
+    .inputs{
+
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 20% 80%;
+    }
+
+    .input-contents , .message-area{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .input-contents input , .message-area textarea{
+        appearance: none;
+        border-color: rgb(168, 181, 165);
+        border-style: solid;
+        border-radius: 25px;
+        padding: 15px 50px;
+        background-color:  rgb(110, 240, 96);
+    }
+    .message-area h5{
+        transform:translate(-475px,0px);
+    }
+
+    
+    .last-link{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .last{
+
+        padding-bottom: 100px;
+    }
